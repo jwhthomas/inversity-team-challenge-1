@@ -1,3 +1,6 @@
+import Link from 'next/link';
+
+
 export default function SetupStep1(){
     const years = [];
     for (let year = 1990; year <= 2024; year++) {
@@ -11,6 +14,7 @@ export default function SetupStep1(){
 
     function nextStep(){
         // Save data to cookies and move on to step-2
+        
     }
 
     return (
@@ -41,7 +45,10 @@ export default function SetupStep1(){
                 </div>
 
                 <div className="py-10"></div>
+                <Link href="/setup/step-2">
                 <div className="bg-theme-btn rounded-lg py-4 px-8 text-white w-fit cursor-pointer z-10" onClick={nextStep}>Next step</div>
+
+                </Link>
                 <div className="h-40 w-full"></div>
 
             </div>

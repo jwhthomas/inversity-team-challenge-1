@@ -1,3 +1,6 @@
+import Link from 'next/link';
+
+
 export default function SetupStep2(){
 
     function nextStep(){
@@ -24,7 +27,10 @@ export default function SetupStep2(){
 
 
                 <div className="py-10"></div>
+                <Link href="/results">
                 <div className="bg-theme-btn rounded-lg py-4 px-8 text-white w-fit cursor-pointer z-10" onClick={nextStep}>Next step</div>
+
+                </Link>
 
             </div>
             <img src="/step3-img-right.png" className="fixed top-0 right-0 h-full"></img>
