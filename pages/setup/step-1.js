@@ -46,7 +46,7 @@ export default function SetupStep1(){
 
                 <div className="py-10"></div>
                 <Link href="/setup/step-2">
-                <div className="bg-theme-btn rounded-lg py-4 px-8 text-white w-fit cursor-pointer z-10" onClick={nextStep}>Next step</div>
+                <div className="bg-theme-btn rounded-lg py-4 px-8 text-white w-fit cursor-pointer z-10 absolute" onClick={nextStep}>Next step</div>
 
                 </Link>
                 <div className="h-40 w-full"></div>
