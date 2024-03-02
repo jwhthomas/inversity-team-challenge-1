@@ -59,7 +59,7 @@ export default function SetupStep2(){
                 <div className="bg-theme-btn rounded-lg py-4 px-8 text-white w-fit cursor-pointer z-10" onClick={nextStep}>Next step</div>
 
             </div>
-            <img src="/setup-img-right.png" className="fixed top-0 right-0 h-full"></img>
+            <img src="/step2-img-right.png" className="fixed top-0 right-0 h-full"></img>
             <img src="/red-triangle.svg" className="absolute -bottom-80 left-0 -z-5"></img>
         </div>
     )
