@@ -9,7 +9,8 @@ module.exports = {
     extend: {
       colors: {
         "theme-bg": "#011F45",
-        "theme-btn": "#FF4638"
+        "theme-btn": "#FF4638",
+        "theme-offwhite": "#F0DDBF"
       }
     },
   },
