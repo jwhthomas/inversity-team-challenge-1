@@ -12,9 +12,9 @@ export default function SetupStep2(){
             <div className="pt-32 pl-48">
                 <img src="/logo.svg" className="pb-4" width="20%"></img>
                 <p className="text-gray-500 big-text">STEP 3 OF 3</p>
-                <h1 className="big-text text-4xl pt-2">Your Preferences</h1>
+                <h1 className="pt-2 text-4xl big-text">Your Preferences</h1>
 
-                <p className="pt-4 pb-2 w-1/3">It's getting exciting: you've made it to the final step! How important are the following factors to you?</p>
+                <p className="w-1/3 pt-4 pb-2">It&apos;s getting exciting: you&apos;ve made it to the final step! How important are the following factors to you?</p>
 
                 <p className="pt-8 pb-2">Environmental impact</p>
                 <input type="range" min="1" max="10" class="slider" id="envImpact" className="w-96"></input>
@@ -28,13 +28,13 @@ export default function SetupStep2(){
 
                 <div className="py-10"></div>
                 <Link href="/results">
-                <div className="bg-theme-btn rounded-lg py-4 px-8 text-white w-fit cursor-pointer z-10 absolute" onClick={nextStep}>Next step</div>
+                <div className="absolute z-10 px-8 py-4 text-white rounded-lg cursor-pointer bg-theme-btn w-fit" onClick={nextStep}>Next step</div>
 
                 </Link>
 
             </div>
             <img src="/step3-img-right.png" className="fixed top-0 right-0 h-full"></img>
-            <img src="/red-triangle.svg" className="absolute -bottom-80 left-0 -z-5"></img>
+            <img src="/red-triangle.svg" className="absolute left-0 -bottom-80 -z-5"></img>
         </div>
     )
 }
