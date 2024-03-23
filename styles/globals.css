@@ -9,12 +9,12 @@
   font-style: normal;
 }
 
-.big-text {
+h1 {
   font-family: "IBM Plex Sans", sans-serif;
   font-weight: 700;
 }
 
-.medium-text {
+p {
   font-family: "IBM Plex Sans", sans-serif;
   font-weight: 500;
 }
