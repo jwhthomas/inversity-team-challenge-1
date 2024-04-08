@@ -1,5 +1,7 @@
 import Link from 'next/link';
 import Image from 'next/image';
+import Triange from '@/components/triangle';
+import SideImage from '@/components/sideImage';
 
 export default function Home() {
   return (
@@ -7,7 +9,7 @@ export default function Home() {
       <div className="pt-32 pl-48">
 
         <div className='pb-10'>
-          <Image src="/logo.svg" alt="Evolution logo" width={275} height={100} />
+          <Image src="/vectors/logo.svg" alt="Evolution logo" width={275} height={100} priority />
         </div>
 
         <h1 className="text-8xl">Welcome</h1>
@@ -18,13 +20,8 @@ export default function Home() {
         </Link>
       </div>
 
-      <div className="fixed top-0 right-0">
-        <Image src="/home-img-right.png" alt="An image of a plugged in electric vehicle." width={505} height={1024} quality={100} />
-      </div>
-
-      <div className='fixed bottom-0 left-0 -z-5'>
-        <Image src="/red-triangle.svg" alt="A decorative red triangle." width={300} height={300}/>
-      </div>
+      <SideImage src="/images/home-right.png" />
+      <Triange />
     </div>
   );
 }
